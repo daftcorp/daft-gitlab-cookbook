@@ -6,3 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+include_recipe "apt::default"
+include_recipe "mysql::server"
+include_recipe "gitlab::default"

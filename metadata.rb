@@ -1,8 +1,11 @@
 name             'daft-gitlab-cookbook'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Jeff Tougas'
+maintainer_email 'jeff@daft.io'
 license          'All rights reserved'
 description      'Installs/Configures daft-gitlab-cookbook'
 long_description 'Installs/Configures daft-gitlab-cookbook'
 version          '0.1.0'
 
+depends 'apt'
+depends 'gitlab'
+depends 'mysql'

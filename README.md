@@ -1,10 +1,16 @@
 # daft-gitlab-cookbook-cookbook
 
-TODO: Enter the cookbook description here.
+Sample use of gitlab with vagrant and berkshelf.
+
+Bootstrap with:
+
+```
+knife solo bootstrap [user]@[hostname] -r "recipe[daft-gitlab-cookbook::default]"
+```
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu.
 
 ## Attributes
 

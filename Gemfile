@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
+gem 'knife-solo'
 
 # Uncomment these lines if you want to live on the Edge:
 #
